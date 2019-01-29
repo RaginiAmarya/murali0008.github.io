@@ -41,8 +41,8 @@ border-radius: 50%;
 	<div class="container">
 		<h3>ABOUT ME</h3>
 		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
-		<p>I'm a software intern working in Cognizant Technology Solutions, Bengaluru. 
-			I consider myself a "forever student" and I am eager to learn new skills as well as turn information into action. 
+		<p>I'm a software intern at Cognizant Technology Solutions, Bengaluru. 
+			I consider myself a "forever student" and I am eager to learn new skills as well as transform information into action. 
 			I am fueled by my passion for creating something that people interact with, use, touch and work with.</p>
 		<ul>
 			<li><a class="fb" href="https://www.facebook.com/RaginiAmarya"></a></li>
@@ -121,7 +121,7 @@ border-radius: 50%;
 					</div>
 				</div>
 			</div>
-			  <div class="col-md-4 edu-grid">
+			<!--  <div class="col-md-4 edu-grid">
 				<div class="edu-border">
 					<div class="edu-grid-master">
 						<h3>Papers / Journals</h3>
@@ -130,7 +130,7 @@ border-radius: 50%;
 						<h5>Submitted a paper on Prevention of Footboard Accidents using proximity sensors.</h5>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="col-md-4 edu-grid">
 				<div class="edu-border">
 					<div class="edu-grid-master">
@@ -187,11 +187,7 @@ border-radius: 50%;
 				<h3>PYTHON</h3>
 				<p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991. </p>
 			</div>
-			<div class="col-md-3 ser-grid">
-				<img src="images/js.png" height="190px" width="140px">
-				<h3>JavaScript</h3>
-				<p>JavaScript, often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language.</p>
-			</div>
+			
 			<div class="col-md-3 ser-grid">
 				<img src="images/jQurery.gif" height="190px" width="160px">
 				<h3>Java</h3>
@@ -213,19 +209,19 @@ border-radius: 50%;
 		<div class="skill-grids">
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-1"></div>
-						<p>HTML 5</p>
+						<p>HTML</p>
 					</div>
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-2"></div>
-						<p>CSS 3</p>
+						<p>PYTHON</p>
 					</div>
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-3"></div>
-						<p>JavaScript</p>
+						<p>Java</p>
 					</div>
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-4"></div>
-						<p>Java</p>
+						<p>C</p>
 					</div>
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
@@ -249,7 +245,7 @@ border-radius: 50%;
 								}
 								for (var i = 2; i <= 2; i++){
 									var child = document.getElementById('circles-' + i),
-										percentage = 60;
+										percentage = 55;
 										
 									Circles.create({
 										id:         child.id,
@@ -263,7 +259,7 @@ border-radius: 50%;
 								}
 								for (var i = 3; i <= 3; i++){
 									var child = document.getElementById('circles-' + i),
-										percentage = 60;
+										percentage = 65;
 										
 									Circles.create({
 										id:         child.id,
@@ -277,20 +273,6 @@ border-radius: 50%;
 								}
 							 for (var i = 3; i <= 3; i++){
 									var child = document.getElementById('circles-' + i),
-										percentage = 70;
-										
-									Circles.create({
-										id:         child.id,
-										percentage: percentage,
-										radius:     80,
-										width:      10,
-										number:   percentage / 1,
-										text:       '%',
-										colors:     colors[i - 1]
-									});
-								}
-								for (var i = 4; i <= 4; i++){
-									var child = document.getElementById('circles-' + i),
 										percentage = 60;
 										
 									Circles.create({
@@ -303,6 +285,7 @@ border-radius: 50%;
 										colors:     colors[i - 1]
 									});
 								}
+								
 						
 				</script>
 		</div>
